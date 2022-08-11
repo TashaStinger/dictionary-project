@@ -13,7 +13,6 @@ export default function Results(props) {
                             <Meaning meaning={meaning} />
                         </div>
                     )
-                    {/*  return meaning.definitions[0].definition; */}
                 })}
             </div>
         )
