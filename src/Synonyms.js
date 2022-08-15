@@ -4,7 +4,7 @@ export default function Synonyms(props) {
     // console.log(props.synonyms);
     if (props.synonyms.length !== 0) {
         return (
-            <span className="Synonyms">
+            <div className="Synonyms">
                 {/* <br />
                 Synonyms: {" "} */}
                 <ul>
@@ -16,7 +16,7 @@ export default function Synonyms(props) {
                     )
                 })}
                 </ul>
-            </span>
+            </div>
         )
     } else {
         return null;
