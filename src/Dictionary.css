@@ -7,6 +7,11 @@
     color: #475053;
 }
 
+.Dictionary h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
 .Dictionary h2, h3, h4, a {
     color: #176f8f;
 }
@@ -29,4 +34,8 @@
     font-size: 14px;
     margin: 8px 0px 0px 4px;
     /* color: #207ea1; */
+}
+
+.Dictionary h2, h4 {
+    margin-bottom: 16px;
 }
