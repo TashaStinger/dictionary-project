@@ -1,6 +1,12 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .App h1 {
   text-align: center;
   margin: 50px;
+  color: #0f6585;
 }
 
 .App-footer {

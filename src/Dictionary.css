@@ -1,0 +1,36 @@
+.Dictionary section{
+    background-color: #ffffff;
+    padding: 36px;
+    margin: 24px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    color: #475053;
+}
+
+.Dictionary h2, h3, h4, a {
+    color: #176f8f;
+}
+
+.Dictionary a:hover {
+    color:#48afd4;
+}
+
+.Dictionary em {
+    color: #6e838a;
+}
+
+.Dictionary input {
+    width: 100%;
+    padding: 4px;
+    color: #475053;
+}
+
+.Dictionary .hint {
+    font-size: 14px;
+    margin: 8px 0px 0px 4px;
+    /* color: #207ea1; */
+}
+
+.Dictionary .sound {
+    font-size: small;
+}
