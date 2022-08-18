@@ -31,7 +31,7 @@ export default function Dictionary() {
                     <input type="search" onChange={handleKeywordChange} />
                 </form>
                 <div className="hint">
-                    suggested words: sunset, wine, yoga, fog...
+                    Type the word...
                 </div>
             </section>
             <Results results={results} />
