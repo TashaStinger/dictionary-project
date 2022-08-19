@@ -14,4 +14,13 @@
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  font-size: small;
+}
+
+.App-footer a {
+  color: #0f536c;
+}
+
+.App-footer a:hover{
+  color: #1292c1;
 }

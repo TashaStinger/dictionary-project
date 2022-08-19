@@ -12,7 +12,8 @@ function App() {
           <Dictionary />
         </main>
         <footer className='App-footer'>
-          <small>Coded by Natalia Chaplia</small>
+          <a href="https://github.com/TashaStinger/dictionary-project" target="_blank" rel="noreferrer">
+            Open-source code</a> by Natalia Chaplia  
         </footer>
       </div>
     </div>
