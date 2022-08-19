@@ -11,13 +11,12 @@ export default function Dictionary() {
 
     function handleDictionaryResponse(response){
         // console.log(response.data[0]);
-        console.log("API call");
+        console.log("Dictionary API call");
         setResults(response.data[0]);
     }
 
     function handlePexelsResponse(response) {
         console.log("Pexel API call");
-        console.log(response.data.photos);
         setPhotos(response.data.photos);
     }
 
