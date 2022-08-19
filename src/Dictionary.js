@@ -42,11 +42,11 @@ export default function Dictionary() {
         <div className="Dictionary">
             <section>
                 <form onSubmit={search}>
-                    <input type="search" placeholder="Type the word" onChange={handleKeywordChange} />
+                    <input type="search" placeholder="Type a word..." onChange={handleKeywordChange} />
                 </form>
-                {/* <div className="hint">
-                    Suggested words: <em>sunset, yoga, wine, fog...</em>
-                </div> */}
+                <div className="hint">
+                    Suggested words: <em>sunset, city, world, fog...</em>
+                </div>
             </section>
             <Photos photos={photos} />
             <Results results={results} />
