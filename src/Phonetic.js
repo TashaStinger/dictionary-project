@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
+import PlayAudio from "./PlayAudio";
 import "./Phonetic.css";
 
 export default function Phonetic(props) {
-    // console.log(props.phonetic);
+    // let [sound, setSound] = useState(false);
+
+    // function soundOn(event) {
+    //     event.preventDefault();
+    //     alert("setSound - true");
+    //     setSound(true);
+    // }
+
     if (props.phonetic.audio !== "" && props.phonetic.text !== undefined){
         return (
             <div className="Phonetic">
@@ -11,6 +19,7 @@ export default function Phonetic(props) {
                     <span className="sound">
                         <i className = "fa-solid fa-volume-high"></i>
                     </span>
+                    {/* <PlayAudio audio={props.phonetic.audio} sound={sound} /> */}
                 </a>
             </div>
         )

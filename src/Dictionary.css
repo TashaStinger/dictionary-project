@@ -26,12 +26,12 @@
 
 .Dictionary input {
     width: 100%;
-    padding: 4px;
+    padding: 8px;
     color: #475053;
 }
 
 .Dictionary .hint {
-    font-size: 14px;
+    font-size: 15px;
     margin: 8px 0px 0px 4px;
     /* color: #207ea1; */
 }
